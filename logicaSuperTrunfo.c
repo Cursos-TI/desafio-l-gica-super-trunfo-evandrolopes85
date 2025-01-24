@@ -24,8 +24,52 @@ int main() {
     // Exemplo:
     // printf("Digite o código da cidade: ");
     // scanf("%s", codigo);
+    printf("Digite os dados da primeira carta");
+
+    printf("Digite o estado:\n");
+    scanf("%c", estado);
+
+    printf("Digite o codigo da carta:\n");
+    scanf("%c", codigoDaCarta);
+
+    printf("Digite o nome da cidade:\n");
+    scanf("%c", nomeDaCidade);
+
+    printf("Digite a quantidade de pessoas da cidade:\n");
+    scanf("%d", populacao);
+
+    printf("Digite a area da cidade:\n");
+    scanf("%f", area);
+
+    printf("Digite o PIB da cidade:\n");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turisticos:\n");
+    scanf("%d", &numeroPontosTuristicos);
     // 
     // (Repita para cada propriedade)
+    printf("Digite os dados da segunda carta");
+
+    printf("Digite o estado:\n");
+    scanf("%c", estado);
+
+    printf("Digite o codigo da carta:\n");
+    scanf("%c", codigoDaCarta);
+
+    printf("Digite o nome da cidade:\n");
+    scanf("%c", nomeDaCidade);
+
+    printf("Digite a quantidade de pessoas da cidade:\n");
+    scanf("%d", populacao);
+
+    printf("Digite a area da cidade:\n");
+    scanf("%f", area);
+
+    printf("Digite o PIB da cidade:\n");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turisticos:\n");
+    scanf("%d", &numeroPontosTuristicos);
 
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
